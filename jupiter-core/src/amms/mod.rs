@@ -1,6 +1,7 @@
-mod account_meta_from_token_swap;
 pub mod amm;
-pub mod spl_token_swap_amm;
 pub mod test_harness;
 
+mod account_meta_from_goat_swap;
+pub mod goat_swap_amm;
 pub mod loader;
+pub mod state;
